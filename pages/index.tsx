@@ -17,7 +17,6 @@ export default function Home({ infos }: IProps) {
 
   // 최초 mount가 되면 즉, html이 출력이 되면 props를 출력
   useEffect(() => {
-    console.log(infos);
     initializeInfos(infos);
     // 새로운 정보가 들어온다면 다시 렌더링 해주기 위해서
   }, [initializeInfos, infos]);
