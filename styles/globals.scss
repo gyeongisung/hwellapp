@@ -16,8 +16,6 @@ body {
   height: 100%;
 }
 
-// next.js에서 자동으로 삽입
-// css tree에서 제거합니다.
 @layer base {
   #__next {
     display: contents;
