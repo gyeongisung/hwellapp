@@ -11,9 +11,8 @@ type Props = {
   minZoom?: number;
   onLoad?: (map: NaverMap) => void;
 };
-
 const Map = ({
-  mapId = 'map',
+  mapId = "map",
   initialCenter = INITIAL_CENTER,
   initialZoom = INITIAL_ZOOM,
   minZoom = INITIAL_MIN,
@@ -51,3 +50,4 @@ const Map = ({
 };
 
 export default Map;
+
