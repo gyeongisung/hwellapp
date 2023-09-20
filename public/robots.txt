@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://hwellapp-gyeongisung.vercel.app/
+
+# Sitemaps
+Sitemap: https://hwellapp-gyeongisung.vercel.app/sitemap.xml
